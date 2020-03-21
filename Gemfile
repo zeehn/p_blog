@@ -26,6 +26,7 @@ gem 'bootstrap-will_paginate', '~> 1.0'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  gem 'rails-controller-testing', '~> 0.0.3'
   gem 'sqlite3'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '>= 2.15'
